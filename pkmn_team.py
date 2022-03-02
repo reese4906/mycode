@@ -10,7 +10,7 @@ with open("pokedex.txt") as pokedata:
     for row in csv_reader:
         pokelist.append(row)
 
-    print("Here are your randomly assigned pokemon:")
+    print("Here is your randomly assigned Pokemon Team!!!:")
     for i in range(6):
         pokenum = random.randint(1,721)
         pokecomp.append(pokelist[pokenum])
