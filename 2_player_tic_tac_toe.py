@@ -36,7 +36,7 @@ def check_position(position):
         return 0
     return 1
 
-print("===== Welcome 2 player Tic Tac Toe Game =====")
+print("Welcome to the 2 player Tic Tac Toe Game")
 counter = 0
 while 1:
     if counter % 2 == 0:
